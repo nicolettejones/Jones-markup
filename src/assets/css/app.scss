@@ -1,24 +1,113 @@
 body {
-	background-color: #f4f5f7;
+	background-color: white;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.logo{
+	height: 90px;
+	width:170px;
+	float:left;
+	padding-right: 2%;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+
+}
+li {
+	float: left;
+	border-left: 1px solid #f7db27;
+	line-height: .5px;
+}
+a.navigation {
+ display: block;
+padding: 40px;
+background-color: white;
+text-decoration:none;
+font-family: Helvetica;
+color: black;
+}
+
+input {
+	width: 100px;
+	-webkit-transition:width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	float: right;
+	margin-top:40px;
+	margin-right: 40px;
 }
 
 img {
 	width: 100%;
 }
 
+.image {
+	position:relative;
+	width: 100%;
+	padding-bottom: -5%;
+	}
+
+h2{
+	position: absolute;
+	top: 40px;
+	left:10px;
+	width: 100%;
+}
+h2 span{
+	color: white;
+	font-size:90px;
+	font-family: Helvetica;
+	letter-spacing: -1px;
+	bacground: rgb(0,0,0);
+	bacground: rgba(0,0,0,0.7);
+	padding: 10px;
+}
+
+
+a.author { 
+color: black;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 4px solid #f7db27;
+font-size: 24px;
+
+}
+
+.video-with-text{
+	text-align: justify;
+	width: 750px;
+	border: 0px;
+	margin:0px;
+	margin-bottom: -10px;
+}
+
+.caption {
+	display: block;
+margin: 0;
+padding-top: 0%;
+padding-bottom: 5%
+}
+
 .container {
 max-width: 750px;
 margin: 100px auto 0 auto;}
 
-.headline {
-	font-size: 100px;
-	line-height: 95px;
-	font-family: "Karma"
-}
 .body {
 	font-size: 22px;
 	line-height: 32px;
 	font-family: Georgia;
 }
+
+.body1 {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 40px;
+	font-family: Georgia;
+}
+
+
+
